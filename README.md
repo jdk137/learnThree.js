@@ -66,4 +66,18 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 ```
 
 
+### 3 . 学习使用Three.js中的光源
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190314150543755.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)新版本Three.js中PointLight已经可以创建阴影。
+详细参数可以参考：
+[three.js光源使用详解](https://blog.csdn.net/jdk137/article/details/88552491)
+颜色对象方法可参考：
+[THREE.Color颜色对象详解](https://blog.csdn.net/jdk137/article/details/88552791)
+##### 2.1 [AmbientLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/01-ambient-light.html)环境光
+##### 2.2 [PointLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/02-point-light.html) 点光源
+##### 2.3 [SpotLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/03-spot-light.html) 聚光灯
+##### 2.4 [DirectionalLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/04-directional-light.html) 方向光
+##### 2.5 [HemisphereLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/05-hemisphere-light.html) 半球环境光
+##### 2.6 [AreaLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/06-area-light.html) 区域光
+##### 2.7 [LensflaresLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/07-lensflares.html) 光晕光
+
 

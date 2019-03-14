@@ -52,7 +52,6 @@ function init() {
       color: color
     });
 
-
     var range = 40;
     for (var i = 0; i < 1500; i++) {
       var particle = new THREE.Vector3(
