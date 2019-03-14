@@ -29,6 +29,7 @@
 
     // once everything is loaded, we run our Three.js stuff.
     function init() {
+        THREE.ImageUtils.crossOrigin = '';
 
         var stats = initStats();
 
@@ -229,13 +230,6 @@
             return stats;
         }
     };
-    ["../assets/textures/ground/grasslight-big.jpg",
-    "../assets/textures/lensflare/lensflare0.png",
-    "../assets/textures/lensflare/lensflare3.png"].forEach(function (url) {
-        var img = new Image();
-        img.crossOrigin = "anonymous";
-        img.src = url;
-    });
 
     init();
 
