@@ -14,7 +14,7 @@ Three.js 学习指南示例说明
 ##### 2.1 [添加、删除、枚举、通过名字获取场景中的对象](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/01-basic-scene.html)
 ##### 2.2 [雾化效果](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/02-foggy-scene.html)
 
-##### 2.3 [材质效果覆盖](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/03-forced-material.html)
+##### 2.3 [材质效果覆盖](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/03-forced-materials.html)
 
 <center>场景对象最重要的函数和属性的总结</center>
 
