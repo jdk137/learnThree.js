@@ -5,31 +5,31 @@ Three.js 学习指南示例说明
 
 
 ### 1. 用Three.js创建你的第一个三维场景
-##### 1.1 [具有所有基本元素的hello world示例](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-01/06-screen-size-change.html)
+##### 1.1 [具有所有基本元素的hello world示例](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-01/06-screen-size-change.html)
 
 <br>
 
 
 ### 2. 使用构建Three.js场景的基本组件
-##### 2.1 [添加、删除、枚举、通过名字获取场景中的对象](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/01-basic-scene.html)
-##### 2.2 [雾化效果](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/02-foggy-scene.html)
+##### 2.1 [添加、删除、枚举、通过名字获取场景中的对象](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-02/01-basic-scene.html)
+##### 2.2 [雾化效果](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-02/02-foggy-scene.html)
 
-##### 2.3 [材质效果覆盖](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/03-forced-materials.html)
+##### 2.3 [材质效果覆盖](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-02/03-forced-materials.html)
 
 <center>场景对象最重要的函数和属性的总结</center>
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181210172833206.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181210172848581.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
 
-##### 2.4 [three.js内建的几何体](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/04-geometries.html)
+##### 2.4 [three.js内建的几何体](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-02/04-geometries.html)
 
-##### 2.5 [自定义几何体，复制几何体](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/05-custom-geometry.html)
+##### 2.5 [自定义几何体，复制几何体](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-02/05-custom-geometry.html)
 
-##### 2.6 [网格对象的函数和属性 position, rotation, scale, translate, visible](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/06-mesh-properties.html)
+##### 2.6 [网格对象的函数和属性 position, rotation, scale, translate, visible](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-02/06-mesh-properties.html)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181210172910619.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
 
-##### 2.7 [正投影相机和透视相机](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/07-both-cameras.html)
+##### 2.7 [正投影相机和透视相机](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-02/07-both-cameras.html)
 ```js
 
           if (camera instanceof THREE.PerspectiveCamera) {
@@ -60,7 +60,7 @@ Three.js 学习指南示例说明
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181210173022101.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
 
-##### 2.8 [让相机在指定点上聚焦](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/src/chapter-02/08-cameras-lookat.html)
+##### 2.8 [让相机在指定点上聚焦](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-02/08-cameras-lookat.html)
 ```js
 camera.lookAt( new THREE.Vector3(x, y, z));
 ```
@@ -95,12 +95,12 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 ##### 4. 3 [材质结合： 基础材质 + 深度材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/03-combined-material.html)
 ##### 4. 4 [MeshNormalMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/04-mesh-normal-material.html) 网格法向材质, 法向材质可以将材质的颜色设置为其法向量的方向，有时候对于调试很有帮助。
 ##### 4. 5 [MeshFaceMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/05-mesh-face-material.html) 网格面材质， 可以指定每个面使用的材质。
-##### 4. 6 [MeshLambertMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/06-mesh-lambert-material.html) 网格lambert材质， Lambert光照模型的主要特点是只考虑漫反射而不考虑镜面反射的效果，因而对于金属、镜子等需要镜面反射效果的物体就不适应，对于其他大部分物体的漫反射效果都是适用的。[效果示例]（http://www.ituring.com.cn/book/miniarticle/51526）
+##### 4. 6 [MeshLambertMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/06-mesh-lambert-material.html) 网格lambert材质， Lambert光照模型的主要特点是只考虑漫反射而不考虑镜面反射的效果，因而对于金属、镜子等需要镜面反射效果的物体就不适应，对于其他大部分物体的漫反射效果都是适用的。[效果示例](http://www.ituring.com.cn/book/miniarticle/51526)
 ##### 4. 7 [MeshPhongMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/07-mesh-phong-material.html) 网格phong材质， 和Lambert不同的是，Phong模型考虑了镜面反射的效果，因此对于金属、镜面的表现尤为适合。[效果示例](http://www.ituring.com.cn/book/miniarticle/51807)
-##### 4. 8 [ShaderMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/08-shader-material.html) 着色器材质
+##### 4. 8 [ShaderMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/08-shader-material.html) 着色器材质, glsl自定义材质，
 ##### 4. 9 [LineBasicMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/09-line-material.html) 直线基础材质
 ##### 4. 10 [LineDashMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/10-line-material-dashed.html) 虚线材质
 
-
+着色器资源, 创建和分享着色器的好网站： [http://glslsandbox.com/](http://glslsandbox.com/), [https://www.shadertoy.com](https://www.shadertoy.com)
 
 
