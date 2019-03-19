@@ -100,7 +100,8 @@
         // call the render function
         renderer.render(scene, camera);
     }
-    window.onload = init;
+    THREE.ImageUtils.crossOrigin = '';
+    init();
 
 
 </script>

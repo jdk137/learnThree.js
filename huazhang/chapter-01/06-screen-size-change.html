@@ -162,8 +162,8 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
     }
 
-
-    window.onload = init;
+    THREE.ImageUtils.crossOrigin = '';
+    init();
 
     // listen to the resize events
     window.addEventListener('resize', onResize, false);
