@@ -73,23 +73,44 @@
         sphere.position.y = 3;
         sphere.position.z = 2;
 
-        for (var f = 0, fl = sphere.geometry.faces.length; f < fl; f++) {
-            var face = sphere.geometry.faces[f];
-            var centroid = new THREE.Vector3(0, 0, 0);
-            centroid.add(sphere.geometry.vertices[face.a]);
-            centroid.add(sphere.geometry.vertices[face.b]);
-            centroid.add(sphere.geometry.vertices[face.c]);
-            centroid.divideScalar(3);
+        var addArrowToSphere = function () {
+            for (var f = 0, fl = sphere.geometry.faces.length; f < fl; f++) {
+                var face = sphere.geometry.faces[f];
+                var centroid = new THREE.Vector3(0, 0, 0);
+                centroid.add(sphere.geometry.vertices[face.a]);
+                centroid.add(sphere.geometry.vertices[face.b]);
+                centroid.add(sphere.geometry.vertices[face.c]);
+                centroid.divideScalar(3);
 
-            var arrow = new THREE.ArrowHelper(
-                    face.normal,
-                    centroid,
-                    2,
-                    0x3333FF,
-                    0.5,
-                    0.5);
-            sphere.add(arrow);
-        }
+                var arrow = new THREE.ArrowHelper(
+                        face.normal,
+                        centroid,
+                        2,
+                        0x3333FF,
+                        0.5,
+                        0.5);
+                sphere.add(arrow);
+            }
+        };
+
+
+        // for (var f = 0, fl = sphere.geometry.faces.length; f < fl; f++) {
+        //     var face = sphere.geometry.faces[f];
+        //     var centroid = new THREE.Vector3(0, 0, 0);
+        //     centroid.add(sphere.geometry.vertices[face.a]);
+        //     centroid.add(sphere.geometry.vertices[face.b]);
+        //     centroid.add(sphere.geometry.vertices[face.c]);
+        //     centroid.divideScalar(3);
+
+        //     var arrow = new THREE.ArrowHelper(
+        //             face.normal,
+        //             centroid,
+        //             2,
+        //             0x3333FF,
+        //             0.5,
+        //             0.5);
+        //     sphere.add(arrow);
+        // }
 
 
         cube.position = sphere.position;
@@ -97,7 +118,9 @@
 
 
         // add the sphere to the scene
-        scene.add(cube);
+        // scene.add(cube);
+        scene.add(sphere);
+        addArrowToSphere();
 
         // position and point the camera to the center of the scene
         camera.position.x = -20;
@@ -135,7 +158,7 @@
             this.wireframe = meshMaterial.wireframe;
             this.wireframeLinewidth = meshMaterial.wireframeLinewidth;
 
-            this.selectedMesh = "cube";
+            this.selectedMesh = "sphere";
 
             this.shadow = "flat";
 
@@ -206,6 +229,7 @@
                     break;
                 case "sphere":
                     scene.add(sphere);
+                    addArrowToSphere();
 
                     break;
                 case "plane":
@@ -218,7 +242,7 @@
             console.log(meshMaterial);
         });
 
-        spGui.add(controls, 'selectedMesh', ["cube", "sphere", "plane"]).onChange(function (e) {
+        spGui.add(controls, 'selectedMesh', ["sphere", "cube", "plane"]).onChange(function (e) {
 
             scene.remove(plane);
             scene.remove(cube);
@@ -232,6 +256,7 @@
                     break;
                 case "sphere":
                     scene.add(sphere);
+                    addArrowToSphere();
 
                     break;
                 case "plane":
@@ -276,7 +301,8 @@
         }
     };
 
-    window.onload = init;
+    THREE.ImageUtils.crossOrigin = '';
+    init();
 
 
 </script>

@@ -68,10 +68,13 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 
 ### 3 . 学习使用Three.js中的光源
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190314150543755.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)新版本Three.js中PointLight已经可以创建阴影。
+
 详细参数可以参考：
 [three.js光源使用详解](https://blog.csdn.net/jdk137/article/details/88552491)
+
 颜色对象方法可参考：
 [THREE.Color颜色对象详解](https://blog.csdn.net/jdk137/article/details/88552791)
+
 ##### 3.1 [AmbientLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/01-ambient-light.html)环境光
 ##### 3.2 [PointLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/02-point-light.html) 点光源
 ##### 3.3 [SpotLight](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-03/03-spot-light.html) 聚光灯
@@ -82,3 +85,18 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 
 
 
+
+### 4. 使用Three.js的材质
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190319112153578.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+参数配置看这里： [Three.js - 材质的使用参数详解](https://blog.csdn.net/jdk137/article/details/88657132)
+
+##### 4. 1 [MeshBasicMaterial 网格基础材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/01-basic-mesh-material.html)
+##### 4. 2 [MeshDepthMaterial 网格深度材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/02-depth-material.html)
+##### 4. 3 [材质结合： 基础材质 + 深度材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/03-combined-material.html)
+##### 4. 4 [MeshNormalMaterial 网格法向材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/04-mesh-normal-material.html)
+##### 4. 5 [MeshFaceMaterial 网格面材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/05-mesh-face-material.html)
+##### 4. 6 [MeshLambertMaterial 网格lambert材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/06-mesh-lambert-material.html)
+##### 4. 7 [MeshPhongMaterial 网格phong材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/07-mesh-phong-material.html)
+##### 4. 8 [ShaderMaterial 着色器材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/08-shader-material.html)
+##### 4. 9 [LineBasicMaterial 直线基础材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/09-line-material.html)
+##### 4. 10 [LineDashMaterial 虚线材质](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/10-line-material-dashed.html)
