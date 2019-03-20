@@ -101,7 +101,7 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 #### 4. 9 [LineBasicMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/09-line-material.html) 直线基础材质
 #### 4. 10 [LineDashMaterial](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-04/10-line-material-dashed.html) 虚线材质
 
-着色器资源, 创建和分享着色器的好网站： [http://glslsandbox.com/](http://glslsandbox.com/)和[https://www.shadertoy.com](https://www.shadertoy.com)
+着色器资源, 创建和分享着色器的好网站： [http://glslsandbox.com/](http://glslsandbox.com/)和[https://www.shadertoy.com](https://www.shadertoy.com)  
 
 
 
@@ -113,13 +113,15 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 #### 5.1.1 [PlaneGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/01-basic-2d-geometries-plane.html) 二维矩形
 #### 5.1.2 [CircleGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/02-basic-2d-geometries-circle.html) 二维圆
 #### 5.1.3 [RingGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/03-basic-3d-geometries-ring.html) 二维环
-#### 5.1.4 [ShapeGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/03-basic-2d-geometries-shape.html) 自定义二维图形, 可以通过一些函数画出二维图形。[参数示例](https://blog.csdn.net/qq_30100043/article/details/78808725)
+#### 5.1.4 [ShapeGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/03-basic-2d-geometries-shape.html) 自定义二维图形, 可以通过一些函数画出二维图形。[自定义参数示例](https://blog.csdn.net/qq_30100043/article/details/78808725)
 #### 5. 2 三维几何体
 #### 5.2.1 [BoxGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/04-basic-3d-geometries-cube.html) 长方体
 #### 5.2.2 [SphereGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/05-basic-3d-geometries-sphere.html) 球体  可以通过设置参数获得特殊的多面体,半球，伞形
-#### 5.2.3 [SylinderGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/06-basic-3d-geometries-cylinder.html) 圆柱体 可以通过参数获得多边形柱体
+#### 5.2.3 [CylinderGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/06-basic-3d-geometries-cylinder.html) 圆柱体 可以通过参数获得多边形柱体
 #### 5.2.4 [TorusGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/07-basic-3d-geometries-torus.html) 三维圆环
 #### 5.2.5 [TorusKnotGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/08-basic-3d-geometries-torus-knot.html) 环状扭结
-#### 5.2.6 [各种多面体](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/09-basic-3d-geometries-polyhedron.html) 各种多面体
-其实几何体还有线性几何体，可以看上一章。
+#### 5.2.6 [各种多面体](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-05/09-basic-3d-geometries-polyhedron.html)
+其实几何体还有线性几何体，可以看上一章。  
+
+
 
