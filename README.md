@@ -65,6 +65,7 @@ Three.js 开发指南（原书第二版）示例说明
 camera.lookAt( new THREE.Vector3(x, y, z));
 ```
 
+<br>
 
 ### 3 . 学习使用Three.js中的光源
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190314150543755.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)新版本Three.js中PointLight已经可以创建阴影。
@@ -85,6 +86,7 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 
 
 
+<br>
 
 ### 4. 使用Three.js的材质
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190319112153578.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
@@ -104,6 +106,7 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 着色器资源, 创建和分享着色器的好网站： [http://glslsandbox.com/](http://glslsandbox.com/)和[https://www.shadertoy.com](https://www.shadertoy.com)  
 
 
+<br>
 
 ### 5. 学习使用几何体
 
@@ -124,4 +127,25 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 其实几何体还有线性几何体，可以看上一章。  
 
 
+<br>
+
+### 6. 高级几何体和二元操作
+这一章非常实用，介绍了很多将一维和二维的几何体转化为三维的方法。以及三维几何体合并、相减、相交等操作。对数据可视化应该比较有用。
+
+#### 6.1 [ConvexGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/01-advanced-3d-geometries-convex.html) 凸包几何体  包含三位点集的多面体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78787260)
+
+#### 6.2 [LatheGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/02-advanced-3d-geometries-lathe.html) 通过旋转创建几何体    让一根曲线绕Z轴旋转一周，创建几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78797814)
+
+#### 6.3 [ExtrudeGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/03-extrude-geometry.html) 让一个平面形状沿某一根曲线拉伸，创建几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78838429)
+
+#### 6.4 [TubeGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/04-extrude-tube.html) 管道几何体，让某一根曲线变粗，创建几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78848765)
+
+#### 6.5 [把svg拉伸](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/05-extrude-svg.html) 让一个svg平面形状沿某一根曲线拉伸，创建几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78858886)， 依赖于d3-three.js库
+
+
+#### 6.6 [ParametricGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/06-parametric-geometries.html) 参数化几何体， 通过设置函数，创建各种几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78898102)
+
+#### 6.7 [textGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/07-text-geometry.html) 文字几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78907566) 示例中是老版本threejs的js文字方式，参数设置中是新版本的json文字方式 [typeface在线字体库获取相关字体文件](http://gero3.github.io/facetype.js/)
+
+#### 6.8 [几何体的二元操作](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/08-binary-operations.html) 几何体的合并、相减、相交操作 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78944426)  依赖于ThreeBSP库
 
