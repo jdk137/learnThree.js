@@ -167,7 +167,7 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 #### 7.5a [pointCloud + webglRenderer](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/05a-program-based-point-cloud-webgl.html) 通过代码绘制canvas内容，并设置为THREE.PointCloudMaterial的map属性值。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190328163231605.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
 
-#### 7.5b [sprite + webglRenderer](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/05b-program-based-sprites-webgl.html) 通过代码绘制canvas内容，并设置为THREE.SpriteMaterial的program属性值。
+#### 7.5b [sprite + webglRenderer](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/05b-program-based-sprites-webgl.html) 通过代码绘制canvas内容，并设置为THREE.SpriteMaterial的map属性值。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190328162951790.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
 
 #### 7.6 [雨滴 单个纹理](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/06-rainy-scene.html) 使用纹理图片来设置THREE.PointCloudMaterial的map属性值。
