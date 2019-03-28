@@ -132,7 +132,7 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 ### 6. 高级几何体和二元操作
 这一章非常实用，介绍了很多将一维和二维的几何体转化为三维的方法。以及三维几何体合并、相减、相交等操作。对数据可视化应该比较有用。
 
-#### 6.1 [ConvexGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/01-advanced-3d-geometries-convex.html) 凸包几何体  包含三位点集的多面体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78787260)
+#### 6.1 [ConvexGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/01-advanced-3d-geometries-convex.html) 凸包几何体  包含三维点集的多面体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78787260)
 
 #### 6.2 [LatheGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/02-advanced-3d-geometries-lathe.html) 通过旋转创建几何体    让一根曲线绕Z轴旋转一周，创建几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78797814)
 
@@ -148,4 +148,38 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 #### 6.7 [textGeometry](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/07-text-geometry.html) 文字几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78907566) 示例中是老版本threejs的js文字方式，参数设置中是新版本的json文字方式 [typeface在线字体库获取相关字体文件](http://gero3.github.io/facetype.js/)
 
 #### 6.8 [几何体的二元操作](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-06/08-binary-operations.html) 几何体的合并、相减、相交操作 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78944426)  依赖于ThreeBSP库
+
+
+
+
+<br>
+
+### 7. 粒子，sprite和点云
+这一章介绍了两种粒子系统： sprite和点云。sprite可以定制每一个粒子的样式，支持的点比较少。点云可以定制一群粒子的材质，支持的点更多；点云只可以定制单个粒子的颜色，单个粒子其他的属性都是通过修改材质统一设置的。粒子的位置在sprite和点云中都可以单独修改。
+
+#### 7.1 [理解粒子](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/01-particles.html)
+
+#### 7.2 [粒子颜色](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/02-particles-webgl.html)
+
+#### 7.3 [点云基础](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/03-basic-point-cloud.html)
+
+#### 7.4 [sprite + canvasRenderer](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/04-program-based-sprites.html) 通过代码绘制canvas内容，并设置为THREE.SpriteCanvasMaterial的program属性值。
+
+#### 7.5a [pointCloud + webglRenderer](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/05a-program-based-point-cloud-webgl.html) 通过代码绘制canvas内容，并设置为THREE.PointCloudMaterial的map属性值。
+
+#### 7.5b [sprite + webglRenderer](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/05b-program-based-sprites-webgl.html) 通过代码绘制canvas内容，并设置为THREE.SpriteCanvasMaterial的program属性值。
+
+#### 7.6 [雨滴 单个纹理](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/06-rainy-scene.html) 使用纹理图片来设置THREE.PointCloudMaterial的map属性值。
+
+#### 7.7 [雪花 多个纹理](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/07-snowy-scene.html) 使用多个纹理图片来创建多个pointCloud。
+
+#### 7.8 [sprite 使用大纹理图片的一部分](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/08-sprites.html)  
+
+#### 7.9 [sprite 使用大纹理图片的多个部分](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/09-sprites-3D.html)  
+
+#### 7.10 [利用几何体模型的结点创建粒子系统](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/10-create-particle-system-from-model.html)  
+
+
+
+
 
