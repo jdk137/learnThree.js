@@ -71,7 +71,12 @@
 
 
         function getTexture() {
-            var texture = new THREE.ImageUtils.loadTexture("../assets/textures/particles/sprite-sheet.png");
+
+            // var texture = new THREE.ImageUtils.loadTexture("../assets/textures/particles/sprite-sheet.png");
+            var texture = THREE.ImageUtils.loadTexture("../assets/textures/particles/sprite-sheet.png");
+            // var loader = new THREE.TextureLoader();
+            // var texture = loader.load("../assets/textures/particles/sprite-sheet.png");
+            // texture.crossOrigin = true;
             return texture;
         }
 
