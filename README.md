@@ -187,24 +187,25 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 
 ### 8. 创建、加载高级网格和几何体
 这一章介绍了 1. 如何组合几何体。如果说7章的粒子中的最小单元是平面的，那么这一章最小单元就是立体的。group之于merge, 有点类似于sprite之于pointCloud。  2. 如何加载三维模型文件。Blender是一个开源的制作三维几何体的软件,介绍了如何从Blender导出三维模型文件。
+[多种格式的比较和说明]（http://www.bgteach.com/article/132）
 
-#### 8.1 [group 组](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/01-grouping.html)  group可以把多个object组合成一个object, 并对合成的object进行统一的位移、旋转、缩放操作。使用组的时候，还可以单独引用、修改、定位每一个单独的几何体，唯一需要注意的是，所有的位移、旋转、缩放操作都是相对于父对象的。
-#### 8.2 [merge 合并](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/02-merging.html) merge可以把多个几何体合并成一个几何体。内部的几何体共享一个材质。无法单独控制。merge的性能优于group，书中说可以提升5倍。
-#### 8.3 [json object导入导出](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/03-load-save-json-object.html)
-#### 8.4 [json scene导入导出](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/04-load-save-json-scene.html)
-#### 8.5 [blender 模型导出并显示](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/05-blender-from-json.html)
-#### 8.6 [obj格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/06-load-obj.html)
-#### 8.7 [obj-mtl格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/07-load-obj-mtl.html)
-#### 8.8 [collada(.dae)格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/08-load-collada.html)
-#### 8.9 [stl格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/09-load-stl.html)
-#### 8.10 [ctm格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/10-load-ctm.html)
-#### 8.11 [vtk格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/11-load-vtk.html)
-#### 8.12 [pdb格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/12-load-pdb.html)
-#### 8.13 [PLY格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/13-load-PLY.html)
-#### 8.14 [awd格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/14-load-awd.html)
-#### 8.15 [assimp格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/15-load-assimp.html)
-#### 8.16 [vrml格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/16-load-vrml.html)
-#### 8.17 [babylon格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-07/17-load-babylon.html) babylon可以整个scene导入
+#### 8.1 [group 组](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-08/01-grouping.html)  group可以把多个object组合成一个object, 并对合成的object进行统一的位移、旋转、缩放操作。使用组的时候，还可以单独引用、修改、定位每一个单独的几何体，唯一需要注意的是，所有的位移、旋转、缩放操作都是相对于父对象的。
+#### 8.2 [merge 合并](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-08/02-merging.html) merge可以把多个几何体合并成一个几何体。内部的几何体共享一个材质。无法单独控制。merge的性能优于group，书中说可以提升5倍。
+#### 8.3 [json object导入导出](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-08/03-load-save-json-object.html)
+#### 8.4 [json scene导入导出](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/04-load-save-json-scene.html)
+#### 8.5 [blender 模型导出并显示](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/05-blender-from-json.html)
+#### 8.6 [obj格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/06-load-obj.html)
+#### 8.7 [obj-mtl格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/07-load-obj-mtl.html)
+#### 8.8 [collada(.dae)格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/08-load-collada.html)
+#### 8.9 [stl格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/09-load-stl.html)
+#### 8.10 [ctm格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/10-load-ctm.html)
+#### 8.11 [vtk格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/11-load-vtk.html)
+#### 8.12 [pdb格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/12-load-pdb.html)
+#### 8.13 [PLY格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/13-load-PLY.html) 粒子效果示例
+#### 8.14 [awd格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/14-load-awd.html)
+#### 8.15 [assimp格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/15-load-assimp.html)
+#### 8.16 [vrml格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/16-load-vrml.html)
+#### 8.17 [babylon格式](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/cahpter-08/17-load-babylon.html) babylon可以整个scene导入
 
 
 
