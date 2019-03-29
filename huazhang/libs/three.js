@@ -11613,7 +11613,8 @@ THREE.ImageLoader.prototype = {
 
 		}
 
-		if ( this.crossOrigin !== undefined ) image.crossOrigin = '';
+		// if ( this.crossOrigin !== undefined ) image.crossOrigin = this.crossOrigin;
+		this.crossOrigin = '';  // self change
 
 		image.src = url;
 
