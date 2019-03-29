@@ -186,7 +186,7 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 <br>
 
 ### 8. 创建、加载高级网格和几何体
-这一章介绍了 1. 如何组合几何体。如果说7章的粒子中的最小单元是平面的，那么这一章最小单元就是立体的。group之于merge, 有点类似于sprite之于pointCloud。  2. 如何加载三维模型文件。Blender是一个开源的制作三维几何体的软件,介绍了如何从Blender导出三维模型文件。
+这一章介绍了 1. 如何组合几何体。如果说第7章的粒子中的最小单元是平面的，那么这一章最小单元就是立体的。group之于merge, 有点类似于sprite之于pointCloud。  2. 如何加载三维模型文件。Blender是一个开源的制作三维几何体的软件，介绍了如何从Blender导出三维模型文件。
 [多种格式的比较和说明](http://www.bgteach.com/article/132)
 
 #### 8.1 [group 组](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-08/01-grouping.html)  group可以把多个object组合成一个object, 并对合成的object进行统一的位移、旋转、缩放操作。使用组的时候，还可以单独引用、修改、定位每一个单独的几何体，唯一需要注意的是，所有的位移、旋转、缩放操作都是相对于父对象的。
