@@ -11614,7 +11614,7 @@ THREE.ImageLoader.prototype = {
 		}
 
 		// if ( this.crossOrigin !== undefined ) image.crossOrigin = this.crossOrigin;
-		this.crossOrigin = '';  // self change
+		image.crossOrigin = '';  // self change
 
 		image.src = url;
 
