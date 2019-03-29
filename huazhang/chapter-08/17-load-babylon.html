@@ -128,7 +128,9 @@
             return stats;
         }
     }
-    window.onload = init;
+
+    THREE.ImageUtils.crossOrigin = '';
+    init();
 </script>
 </body>
 </html>

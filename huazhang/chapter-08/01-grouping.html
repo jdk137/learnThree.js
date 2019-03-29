@@ -139,7 +139,7 @@
                     wireframeLinewidth: 2,
                     wireframe: true
                 }));
-//            scene.add(bboxMesh);
+           // scene.add(bboxMesh);
 
                 bboxMesh.position.x = ((box.min.x + box.max.x) / 2);
                 bboxMesh.position.y = ((box.min.y + box.max.y) / 2);
@@ -276,7 +276,8 @@
         }
     };
 
-    window.onload = init;
+    THREE.ImageUtils.crossOrigin = '';
+    init();
 
 
 </script>
