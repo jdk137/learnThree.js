@@ -209,3 +209,37 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 
 
 
+
+<br>
+
+### 9. 创建动画和移动摄像机
+RequestAnimationFrame 实现动画。 Tween.js实现补间。 光线追踪实现交互。  各种内置控制器。   变形和骨骼动画。
+
+#### 9.1.1 [简单动画](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/01-basic-animation.html) 
+#### 9.1.2 [选择对象](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/02-selecting-objects.html)  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191012143107858.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)![在这里插入图片描述](https://img-blog.csdnimg.cn/20191012143155844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+#### 9.1.3 [使用tween.js实现动画](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/03-animation-tween.html)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191012143453404.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191012143528196.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+#### 9.2.1 [轨迹球控制器](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/04-trackball-controls-camera.html)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191012143659980.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+#### 9.2.2 [飞行控制器](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/05-fly-controls-camera.html)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191012143801231.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+#### 9.2.3 [翻滚控制器](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/06-roll-controls-camera.html) 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191012143916717.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+#### 9.2.4 [第一视角控制器](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/07-first-person-camera.html) 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019101214404943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+#### 9.2.5 [轨道控制器](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/08-controls-orbit.html) 
+适合用来做地球的3D控制
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191012144204554.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+### 9.3 变形动画和骨骼动画
+#### 9.3.1 用变形目标创建动画
+#### 9.3.1.1 [用MorphAnimMesh创建动画](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/10-morph-targets.html) 需要带有变形目标的模型
+#### 9.3.1.2 [通过设置morphTargetInfluence创建动画](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/11-morph-targets-manually.html) 通过代码创建变形目标
+#### 9.3.2 [用骨骼和蒙皮来创建动画](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/12-bones-manually.html) 
+### 9.4 使用外部模型创建动画
+#### 9.4.1 [用Blender创建骨骼动画](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/13-animation-from-blender.html) 
+#### 9.4.2 [用Collada创建骨骼动画](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/14-animation-from-collada.html) 
+#### 9.4.3 [用md2创建骨骼动画](http://htmlpreview.github.io/?https://github.com/jdk137/learnThree.js/master/huazhang/chapter-09/15-animation-from-md2.html) 
+
+
+
