@@ -242,4 +242,41 @@ RequestAnimationFrame 实现动画。 Tween.js实现补间。 光线追踪实现
 #### 9.4.3 [用md2创建骨骼动画](https://jdk137.github.io/learnThree.js/huazhang/chapter-09/15-animation-from-md2.html) 
 
 
+<br>
+
+### 10. 加载和使用纹理
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191014143928761.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkazEzNw==,size_16,color_FFFFFF,t_70)
+
+#### 10.1 [加载纹理并应用到网格](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/01-basic-texture.html)  
+ [dds格式纹理](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/01-basic-texture-dds.html)    [pvr格式纹理](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/01-basic-texture-pvr.html)    [tga格式纹理](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/01-basic-texture-tga.html)
+
+#### 10.2 [凹凸贴图](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/02-bump-map.html)   
+###### bump map这种贴图是一种灰度图，用表面上灰度的变化来描述目标表面的凹凸。Bump Map并没有改变物体的表面而只是影响光照的结果。把Bump Map叠加在已经渲染好的表面上，造成亮度上的扰动，从而让人以为是凹凸的。 [更多贴图相关原理](https://blog.csdn.net/weiwangchao_/article/details/7043087)
+#### 10.3 [法向量贴图](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/03-normal-map.html)   
+###### normal-map图中存储的东西是每个原始表面法线的迭代。使用Normal Map的先决条件－－逐像素著色。引入NormalMap。这时光照计算和以往有点不同，把表面的法线用NormalMap中存储的法线来替代。这样当我们在计算表面光照情况的时候，就会因为法线不断的变化而产生比原来丰富的多的明暗变化。至于为什么会感觉出凹凸来这个就是人的眼睛自己骗自己了……其实那里本没有凹凸。
+#### 10.4 [用光照贴图创建阴影效果](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/04-light-map.html)  用阴影贴图来模拟阴影。只能用于静态场景。
+
+#### 10.5 [用环境贴图创建反光效果（静态）](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/05-env-map-static.html) ，[用环境贴图创建反光效果（动态）](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/05-env-map-dynamic.html) 
+#### 10.6 [高光贴图](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/06-specular-map.html)   地球的海洋部分可以用反光更亮的部分来修饰。
+#### 10.7 [自定义纹理映射](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/07-uv-mapping.html)   blender等建模软件可以设置uv映射，导出不同的obj文件。 [Three.js也可以设置UV映射](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/07-uv-mapping-manual.html)  
+#### 10.8 [重复纹理](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/08-repeat-wrapping.html)  
+#### 10.9 [使用canvas作为纹理](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/09-canvas-texture.html)  
+```js
+var canvas = document.createElement("canvas");
+var canvasMap = new THREE.Texture(canvas);
+var mat = new THREE.MeshPhongMaterial();
+mat.map = canvasMap;
+var mesh = new THREE.Mesh(geom, mat);
+```
+#### 10.10 [将画布作为凹凸贴图](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/10-canvas-texture-bumpmap.html)  
+
+#### 10.11 [将视频输出作为纹理](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/11-video-texture-alternative.html)  , [使用Three.VideoTexture的简化版本](https://jdk137.github.io/learnThree.js/huazhang/chapter-10/11-video-texture.html)  
+```js
+var video = document.getElementById('video');
+texture = new THREE.VideoTexture(video);
+```
+
+
+
+
 

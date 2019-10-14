@@ -89,9 +89,9 @@
 
             this.showCanvas = function () {
                 if (controls.showVideo) {
-                    $('#video').show();
+                    document.getElementById('video').style.display = 'block';
                 } else {
-                    $('#video').hide();
+                    document.getElementById('video').style.display = 'none';
                 }
             }
 
