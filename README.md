@@ -3,6 +3,8 @@
 
 Three.js 开发指南（原书第二版）示例说明
 
+本文档的图片可能无法显示，可以跳转到[这里](https://blog.csdn.net/jdk137/article/details/84943611)查看。
+
 
 ### 1. 用Three.js创建你的第一个三维场景
 #### 1.1 [具有所有基本元素的hello world示例](https://jdk137.github.io/learnThree.js/huazhang/chapter-01/06-screen-size-change.html)
@@ -140,7 +142,7 @@ camera.lookAt( new THREE.Vector3(x, y, z));
 
 #### 6.4 [TubeGeometry](https://jdk137.github.io/learnThree.js/huazhang/chapter-06/04-extrude-tube.html) 管道几何体，让某一根曲线变粗，创建几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78848765)
 
-#### 6.5 [把svg拉伸](https://jdk137.github.io/learnThree.js/huazhang/chapter-06/05-extrude-svg.html) 让一个svg平面形状沿某一根曲线拉伸，创建几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78858886)， 依赖于d3-three.js库
+#### 6.5 [把svg拉伸](https://jdk137.github.io/learnThree.js/huazhang/chapter-06/05-extrude-svg.html) 让一个svg平面形状沿某一根曲线拉伸，创建几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78858886)， 依赖于d3-threeD.js库
 
 
 #### 6.6 [ParametricGeometry](https://jdk137.github.io/learnThree.js/huazhang/chapter-06/06-parametric-geometries.html) 参数化几何体， 通过设置函数，创建各种几何体 [详细参数设置](https://blog.csdn.net/qq_30100043/article/details/78898102)
@@ -275,6 +277,34 @@ var mesh = new THREE.Mesh(geom, mat);
 var video = document.getElementById('video');
 texture = new THREE.VideoTexture(video);
 ```
+
+
+
+
+
+<br>
+
+### 11. 自定义着色器和后期处理
+这一章主要讲了后期处理。 可以对Three.js 输出的画面做一些After Effect 特效，比如模糊、电影、泛光等等，对提升视觉品质有很好的效果。各种不同的特效感觉像ps的滤镜，需要比较熟悉才能运用好。最后还介绍了用自定义着色器才制作后期特效。 自定义着色器也可应通过第4章4.8中的自定义材质来实现。
+
+#### 11.1 [配置Three.js以进行后期处理](https://jdk137.github.io/learnThree.js/huazhang/chapter-11/01-basic-effect-composer.html)    THREE.EffectComposer基础示例
+
+#### 11.2 后期处理通道
+#### 11.2.1 [简单后期处理通道](https://jdk137.github.io/learnThree.js/huazhang/chapter-11/02-post-processing-simple-passes.html)  这个示例分别展示了FilmPass的电视效果，BloomPass的泛光效果，DotScreenPass的点集效果，以及三者的融合效果。
+[GlitchPass电脉冲效果](https://jdk137.github.io/learnThree.js/huazhang/chapter-11/03-glitch-pass.html) 
+#### 11.2.2 使用掩码的高级效果组合器
+[地球与火星](https://jdk137.github.io/learnThree.js/huazhang/chapter-11/03-post-processing-masks.html) maskPass可以对单独的物体做后期处理，比如地球和火星有不同的后期处理特效。
+#### 11.2.3 使用THREE.ShaderPass自定义效果
+ShaderPass里面可以设置shader， 达到不同的效果。这些Shader都以Shader结尾。
+[shader合集](https://jdk137.github.io/learnThree.js/huazhang/chapter-11/04-shaderpass-simple.html)
+[shader模糊效果](https://jdk137.github.io/learnThree.js/huazhang/chapter-11/05-shaderpass-blur.html)
+[更多高级的shader效果](https://jdk137.github.io/learnThree.js/huazhang/chapter-11/06-shaderpass-advanced.html)
+
+#### 11.3 [创建自定义后期处理着色器](https://jdk137.github.io/learnThree.js/huazhang/chapter-11/07-shaderpass-custom.html)   自定义的shader效果
+
+
+
+
 
 
 
