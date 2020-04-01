@@ -305,6 +305,24 @@ ShaderPass里面可以设置shader， 达到不同的效果。这些Shader都以
 
 
 
+<br>
+
+### 12. 在场景中添加物理效果和声音
+这一章主要讲物理碰撞检测库Physijs, 它是一个three.js的配套库，在物理碰撞引擎ammo.js或者cannon.js上做了一层封装，方便three.js调用。
+
+#### 12.1创建基本的Three.js场景
+[多米诺骨牌](https://jdk137.github.io/learnThree.js/huazhang/chapter-12/01-basic-scene.html)
+
+#### 12.2 [材质属性](https://jdk137.github.io/learnThree.js/huazhang/chapter-12/02-material-properties.html) 设置物理的摩擦系数和弹性
+
+#### 12.3 [基础图形](https://jdk137.github.io/learnThree.js/huazhang/chapter-12/03-shapes.html) Physijs默认封装了不少网格几何体
+
+#### 12.4 [使用约束限制对象的移动](https://jdk137.github.io/learnThree.js/huazhang/chapter-12/04-constraints.html) PointConstraint限制对象在两点间移动；HingeConstraint创建类似门的约束；SlideConstraint将移动限制在一个轴上；ConeTwistConstraint创建类似于球销的约束。
+
+[运动的四轮小车](https://jdk137.github.io/learnThree.js/huazhang/chapter-12/05-dof-constraint.html) DOFConstraint实现细节的控制
+
+#### 12.4.6 [在场景中添加声源](https://jdk137.github.io/learnThree.js/huazhang3/src/chapter-12/07-audio.html) 几何体上绑定声源，camera上绑定听筒，声音的大小随着距离的远近而变化。
+
 
 
 
