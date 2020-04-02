@@ -1,6 +1,11 @@
 # learnThree.js
 存放一些learn three.js 的源码，方便查阅， 代码下载自华章出版社官网的源码。
 
+huazhang目录下是第二版的修改源码。 huazhang3目录下面是第三版的源码。
+
+第二版和第三版大同小异，第二版的three.js版本是69， 第三版的版本是95。
+
+
 Three.js 开发指南（原书第二版）示例说明
 
 本文档的图片可能无法显示，可以跳转到[这里](https://blog.csdn.net/jdk137/article/details/84943611)查看。
